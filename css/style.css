@@ -46,3 +46,17 @@ body{
     cursor: default;
 
 }
+
+.navbar a{
+    font-size: 1.7rem;
+    color: var(--text-color);
+    margin-left: 4rem;
+    transition: .5s;
+}
+
+.navbar a:hover,
+.navbar a:active{
+    color: var(--main-color);
+
+}
+
